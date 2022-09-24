@@ -1,0 +1,14 @@
+h1 {
+  color: aquamarine;
+  background-color: pink;
+  margin: 0px 20px;
+}
+.fancyHeader {
+  color: brown;
+  background-color: azure;
+}
+
+.sweetdiv {
+  background-color: yellowgreen;
+  padding: 20px;
+}
