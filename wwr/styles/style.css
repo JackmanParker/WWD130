@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
   text-align: center;
   color: darkslategray;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -24,9 +27,14 @@ main section {
   background-color: skyblue;
 }
 body {
+  font-family: "Montserrat", Helvetica, sans-serif;
   background-color: whitesmoke;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
+  font-family: "Cinzel", Helvetica, sans-serif;
   background-color: lightblue;
 }
 nav a:hover {
@@ -37,11 +45,18 @@ nav a:hover {
   background-color: grey;
   color: darkslategray;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .join {
   background-color: grey;
   color: steelblue;
   text-decoration: none;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5ps;
 }
 .book:hover {
   background-color: black;
@@ -49,13 +64,21 @@ nav a:hover {
 }
 .msg {
   background-color: white;
+
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   background-color: aliceblue;
   color: steelblue;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
+  font-family: "Cinzel", Helvetica, sans-serif;
+  font-size: 2em;
   color: darkslategray;
+  margin-top: 10px;
 }
 h4 {
   color: steelblue;
@@ -68,6 +91,8 @@ h4 {
 }
 .msg p {
   color: slategray;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 footer a {
   color: steelblue;
@@ -81,13 +106,42 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
 }
 footer p {
   font-size: 1.2em;
+  padding: 25px 50px;
 }
 footer p a:hover {
   text-decoration: underline;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
+}
+.mountains {
+  padding: 200px 0;
 }
