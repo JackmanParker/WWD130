@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./styles/crow.js" defer></script>
     <title>Crow Education | Home</title>
   </head>
   <body>
@@ -32,7 +33,7 @@
           <h1 class="home-title">It will be a murder</h1>
           <h4>Learn more about Crows</h4>
           <div class="button-box">
-            <a class="book" href="ecosystem-page.html">Read Now </a>
+            <button class="book"  onclick="openNav()">Read Now </button>
           </div>
         </section>
       </div>
@@ -68,6 +69,24 @@
             
             
           </section>
+          <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="ecosystem-page.html">Ecosystem</a>
+    <a href="history-page.html">History</a>
+    <a href="site-plan.html">Site-Plan</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span>open</span>
        
         
       </main>
